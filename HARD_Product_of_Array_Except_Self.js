@@ -1,6 +1,8 @@
 /**
  * @see {@link https://leetcode.com/explore/interview/card/top-interview-questions-hard/116/array-and-strings/827/} 
  *
+ * @author Wayne
+ *
  * @todo make an array of left product
  * @todo make an array of right product
  * @todo make an array of answers by left and right array
