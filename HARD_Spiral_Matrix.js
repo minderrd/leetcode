@@ -35,7 +35,7 @@ var spiralOrder = function(matrix) {
         
         // move backward
         if (top != bottom) {
-            for (let i=right-1; i>=0; i--) {
+            for (let i=right-1; i>=left; i--) {
                 answer.push(matrix[bottom][i])
             }
         }
@@ -43,7 +43,7 @@ var spiralOrder = function(matrix) {
         
         // move up
         if (left != right) {
-            for (let i=bottom-1; i>0; i--) {
+            for (let i=bottom-1; i>top; i--) {
                 answer.push(matrix[i][left])
             }
         }
